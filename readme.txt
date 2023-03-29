@@ -1,0 +1,1 @@
+I just made this github repo so that we can try to understand the Wear OS API better, as a community. Contributions to this repo are welcome.

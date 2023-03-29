@@ -1,0 +1,108 @@
+- Wear OS API
+  - Animation
+    - AnimationUtils
+      - loadAnimation: Loads an animation from a resource.
+      - slideInLeft: Returns an animation that slides a view in from the left.
+      - slideOutRight: Returns an animation that slides a view out to the right.
+  - App navigation
+    - NavUtils
+      - getParentActivityIntent: Returns the intent for the parent activity.
+      - navigateUpFromSameTask: Navigates up to the parent activity.
+  - Data communication
+    - Wearable Data Layer API
+      - DataItem: Represents a piece of data that can be synced between the wearable and handheld devices.
+      - DataMap: Stores key-value pairs of data for syncing between the wearable and handheld devices.
+      - PutDataRequest: A request to add or update data items in the data layer.
+    - Wearable Support Library
+      - WearableRecyclerView: A custom RecyclerView that provides circular scrolling and other optimizations for wearables.
+      - WearableListView: A custom ListView that provides circular scrolling and other optimizations for wearables.
+      - BoxInsetLayout: A layout that ensures that UI elements are displayed within the safe zone of a round display.
+  - Graphics and rendering
+    - Canvas
+      - drawBitmap: Draws a bitmap onto the canvas.
+      - drawRect: Draws a rectangle onto the canvas.
+      - drawText: Draws text onto the canvas.
+    - Paint
+      - setColor: Sets the color for drawing operations.
+      - setTextSize: Sets the size of text for drawing operations.
+      - setAntiAlias: Sets whether to enable anti-aliasing for drawing operations.
+    - Path
+      - addCircle: Adds a circle to the path.
+      - addRect: Adds a rectangle to the path.
+      - moveTo: Moves the path to the specified point.
+  - User input
+    - Wearable Gesture API
+      - GestureDetector: Detects gestures on the wearable device, such as swipes and taps.
+      - GestureDetectorCompat: A compatibility class that provides gesture detection on older versions of Android.
+      - WearableGestureController: A controller that manages gesture detection on the wearable device.
+  - UI components
+    - Wearable UI Library
+      - WearableNavigationDrawerView: A navigation drawer optimized for wearable devices.
+      - ConfirmationActivity: A pre-built activity for displaying confirmation screens on the wearable device.
+      - SwipeDismissFrameLayout: A layout that provides swipe-to-dismiss functionality for cards and other UI elements.
+  - Voice commands
+    - Voice Actions API
+      - RecognizerIntent: Recognizes voice input from the user.
+      - VoiceInteractor: Provides a way for the user to interact with the wearable device using voice commands.
+      - VoiceInteractionSession: A session that allows the user to interact with the wearable device using voice commands.
+  - Fitness tracking
+    - Google Fit Platform API
+      - HistoryApi: Provides access to the user's fitness history.
+      - SensorsApi: Provides access to the sensors on the wearable device for collecting fitness data.
+      - RecordingApi: Provides methods for recording fitness data.
+  - Notifications
+    - Notifications API
+      - NotificationCompat.WearableExtender: Extends the functionality of notifications on the wearable device, such as adding pages and actions.
+      - NotificationManagerCompat: Provides compatibility for sending notifications on older versions of Android.
+      - NotificationCompat.Builder: A builder class for creating notifications on the handheld device.
+  - Sensor data
+    - Sensor API
+      - Sensor: Represents a sensor on the wearable device, such as the accelerometer or heart rate monitor.
+      - SensorEvent:
+  - Media playback
+    - MediaSessionCompat
+    - WearableExtender
+    - NotificationCompat.Action
+  - NFC Host Card Emulation
+    - HostApduService
+    - OffHostApduService
+    - CardEmulation
+  - Permissions
+    - PermissionGranter
+    - PermissionRequest
+  - Remote playback
+    - RemotePlaybackClient
+    - RemotePlaybackSession
+  - RemoteControlClient
+    - RemoteControlClientCompat
+  - Rich notifications
+    - CarExtender
+    - WearableExtender
+    - NotificationCompat.Builder
+  - Smart Reply
+    - MessagingStyle
+    - NotificationCompat.MessagingStyle
+    - RemoteInput
+  - Text input
+    - WearableTextInputLayout
+    - WearableEditText
+  - Voice transcription
+    - SpeechRecognizer
+    - VoiceInteractor
+    - VoiceInteractionSession
+  - Wi-Fi
+    - WearableExtender
+    - WifiManager
+    - WifiNetworkSpecifier
+  - Bluetooth
+    - BluetoothAdapter
+    - BluetoothDevice
+    - BluetoothGatt
+  - Camera
+    - Camera2 API
+    - CameraView
+    - CameraX
+  - Location
+    - FusedLocationProviderClient
+    - LocationCallback
+    - LocationRequest
